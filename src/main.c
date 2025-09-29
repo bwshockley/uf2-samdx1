@@ -250,6 +250,7 @@ int main(void) {
     SUPC->BOD33.bit.LEVEL = 200;  // 2.7V: 1.5V + LEVEL * 6mV.
     // Don't reset right now.
     SUPC->BOD33.bit.ACTION = SUPC_BOD33_ACTION_NONE_Val;
+    SUPC->BOD33.bit.RUNSTDBY = 1;
     SUPC->BOD33.bit.ENABLE = 1; // enable brown-out detection
 
     // Wait for BOD33 peripheral to be ready.
