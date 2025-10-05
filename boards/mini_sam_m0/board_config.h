@@ -6,7 +6,7 @@
 #define VENDOR_NAME "Benjamin Shockley"
 #define PRODUCT_NAME "Mini SAM M0"
 #define VOLUME_LABEL "MINISAMBOOT"
-#define INDEX_URL "http://minifigboards.com"
+#define INDEX_URL "https://minifigboards.com"
 #define BOARD_ID "SAMD21G18A-MiniSAMM0-v0"
 
 #define USB_VID 0x1209
